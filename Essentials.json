@@ -1,0 +1,57 @@
+[
+    {
+        "Chinese": "请", 
+        "English": "please", 
+        "EnglishAudio": "oas_eng_please", 
+        "French": null, 
+        "Image": "por_favor", 
+        "Spanish": "por favor", 
+        "SpanishAudio": "oas_spa_por_favor", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "谢谢你", 
+        "English": "thank you", 
+        "EnglishAudio": "oas_eng_thank_you", 
+        "French": null, 
+        "Image": "gracias", 
+        "Spanish": "gracias", 
+        "SpanishAudio": "oas_spa_gracias", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "不客气／不用谢", 
+        "English": "You’re welcome.", 
+        "EnglishAudio": "oas_eng_youre_welcome", 
+        "French": null, 
+        "Image": "de_nada", 
+        "Spanish": "De nada.", 
+        "SpanishAudio": "oas_spa_de_nada", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "对不起／请原谅／抱歉／劳驾", 
+        "English": "Excuse me.", 
+        "EnglishAudio": "oas_eng_excuse_me", 
+        "French": null, 
+        "Image": "Perdon", 
+        "Spanish": "Perdón.", 
+        "SpanishAudio": "oas_spa_perdon", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "对不起", 
+        "English": "I’m sorry", 
+        "EnglishAudio": "oas_eng_im_sorry", 
+        "French": null, 
+        "Image": "lo_siento", 
+        "Spanish": "Lo siento.", 
+        "SpanishAudio": "oas_spa_lo_siento", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }
+]

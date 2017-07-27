@@ -1,0 +1,134 @@
+[
+    {
+        "Chinese": "滑冰", 
+        "English": "skating", 
+        "EnglishAudio": "oas_eng_skating", 
+        "French": null, 
+        "Image": "patinaje", 
+        "Spanish": "el patinaje", 
+        "SpanishAudio": "oas_spa_el_patinaje", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "滑雪", 
+        "English": "skiing", 
+        "EnglishAudio": "oas_eng_skiing", 
+        "French": null, 
+        "Image": "patinaje", 
+        "Spanish": "el esquí", 
+        "SpanishAudio": "oas_spa_el_esqui", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "活动", 
+        "English": "activities", 
+        "EnglishAudio": "oas_eng_activities", 
+        "French": null, 
+        "Image": "activities", 
+        "Spanish": "las actividades", 
+        "SpanishAudio": "oas_spa_las_actividades", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "骑自行车", 
+        "English": "bicycling", 
+        "EnglishAudio": "oas_eng_bicycling", 
+        "French": null, 
+        "Image": "ciclismo", 
+        "Spanish": "el ciclismo", 
+        "SpanishAudio": "oas_spa_el_ciclismo", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "骑摩托车", 
+        "English": "motorcycling", 
+        "EnglishAudio": "oas_eng_motorcycling", 
+        "French": null, 
+        "Image": "motorciclismo", 
+        "Spanish": "el motociclismo", 
+        "SpanishAudio": "oas_spa_el_motociclismo", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "跳舞", 
+        "English": "dancing", 
+        "EnglishAudio": "oas_eng_dancing", 
+        "French": null, 
+        "Image": "baile", 
+        "Spanish": "el baile", 
+        "SpanishAudio": "oas_spa_el_baile", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "登山", 
+        "English": "hiking", 
+        "EnglishAudio": "oas_eng_hiking", 
+        "French": null, 
+        "Image": "camping", 
+        "Spanish": "el senderismo", 
+        "SpanishAudio": "oas_spa_el_senderismo", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "野营", 
+        "English": "camping", 
+        "EnglishAudio": "oas_eng_camping", 
+        "French": null, 
+        "Image": "camping", 
+        "Spanish": "el cámping", 
+        "SpanishAudio": "oas_spa_el_camping", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "帆船", 
+        "English": "sailing", 
+        "EnglishAudio": "oas_eng_sailing", 
+        "French": null, 
+        "Image": null, 
+        "Spanish": "la navegación a vela", 
+        "SpanishAudio": "oas_spa_la_navegacion_a_vela", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "划船", 
+        "English": "boating", 
+        "EnglishAudio": "oas_eng_boating", 
+        "French": null, 
+        "Image": null, 
+        "Spanish": "el paseo en barco", 
+        "SpanishAudio": "oas_spa_el_paseo_en_barco", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "游泳", 
+        "English": "swimming", 
+        "EnglishAudio": "oas_eng_swimming", 
+        "French": null, 
+        "Image": "natacion", 
+        "Spanish": "la natación", 
+        "SpanishAudio": "oas_spa_la_natacion", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }, 
+    {
+        "Chinese": "潜水", 
+        "English": "scuba diving", 
+        "EnglishAudio": "oas_eng_scuba_diving", 
+        "French": null, 
+        "Image": "natacion", 
+        "Spanish": "el submarinismo", 
+        "SpanishAudio": "oas_spa_el_submarinismo", 
+        "chineseaudio": null, 
+        "frenchaudio": null
+    }
+]

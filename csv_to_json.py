@@ -20,14 +20,16 @@ def csv_to_json(archivo, clase, columnas):
         df_ = df[df[clase] == topic]
 
         df_ = df_[columnas]
-
+        df_.columns = ['spanish', 'english', 'french', 'chinese', 'englishaudio', 'spanishaudio', 'frenchaudio',
+                       'chineseaudio', 'image']
+        print(df_.columns)
         df_ = df_.to_json(orient='records')
         data_json = json.loads(df_)
         pprint.pprint(data_json[0])
         data_json = {'items': data_json}
         print(topic)
 
-        with io.open('{}.json'.format(topic), 'w', encoding='utf-8') as f:
+        with io.open('csv_{}.json'.format(topic.lower()), 'w', encoding='utf-8') as f:
             f.write(json.dumps(data_json, ensure_ascii=False, indent=4, sort_keys=True))
 
 

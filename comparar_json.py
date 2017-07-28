@@ -3,7 +3,7 @@ import os
 import pprint
 import io
 
-os.chdir('oasis')
+os.chdir('originales')
 lista_originales = os.listdir()
 os.chdir('..')
 print(lista_originales)
@@ -24,7 +24,7 @@ for arch in lista_originales:
                     if key == 'chinese':
                         d_original[i][key] = d_bueno[i].get(key)
         d_original = {'items': d_original}
-        with io.open('CORREGIDO_{}'.format(arch), 'w', encoding='utf-8') as f:
+        with io.open('{}'.format(arch), 'w', encoding='utf-8') as f:
             f.write(json.dumps(d_original, ensure_ascii=False, indent=4, sort_keys=True))
         pprint.pprint(d_original)
 

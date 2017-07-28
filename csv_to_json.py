@@ -29,21 +29,29 @@ def csv_to_json(archivo, clase, columnas):
         data_json = {'items': data_json}
         print(topic)
 
-        with io.open('csv_{}.json'.format(topic.lower()), 'w', encoding='utf-8') as f:
+        with io.open('csv_{}.json'.format(topic), 'w', encoding='utf-8') as f:
             f.write(json.dumps(data_json, ensure_ascii=False, indent=4, sort_keys=True))
 
 
 if __name__ == '__main__':
     # para el primer archivo de oasis
+    '''
+    
+        csv_to_json('Oasis.csv', 'Topic', columnas_oasis)
+        
+        
+      csv_to_json('lesson1.csv', 'Lesson ID', columnas_lessons)
+    csv_to_json('lesson2.csv', 'Lesson ID', columnas_lessons)
+    csv_to_json('lesson3.csv', 'Lesson ID', columnas_lessons)  
+    '''
     columnas_oasis = ['Spanish', 'English', 'French', 'Chinese', 'EnglishAudio', 'SpanishAudio', 'frenchaudio',
                       'chineseaudio', 'Image']
-    csv_to_json('Oasis.csv', 'Topic', columnas_oasis)
+
 
     # para las lecciones
     columnas_lessons = ['Spanish', 'English', 'French', 'Chinese', 'SpanishAudio', 'EnglishAudio',
                         'FrenchAudio', 'ChineseAudio', 'Image']
-    csv_to_json('lesson1.csv', 'Lesson ID', columnas_lessons)
-    csv_to_json('lesson2.csv', 'Lesson ID', columnas_lessons)
-    csv_to_json('lesson3.csv', 'Lesson ID', columnas_lessons)
+
+    csv_to_json('fs.csv', 'Lesson ID', columnas_lessons)
 
 
